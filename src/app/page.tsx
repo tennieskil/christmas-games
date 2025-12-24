@@ -25,6 +25,13 @@ export default function Home() {
             <p className="text-gray-500 mb-6">Kan du namnge julklassikerna med hjälp av bara några emojis?</p>
             <span className="btn-secondary">Starta Emojis</span>
           </Link>
+
+          <Link href="/forehead" className="glass-card p-8 group hover:scale-[1.02] transition-transform flex flex-col items-center md:col-span-2">
+            <div className="text-6xl mb-4 group-hover:scale-110 transition-transform">📱</div>
+            <h2 className="text-2xl font-bold mb-2">Pannband</h2>
+            <p className="text-gray-500 mb-6">Håll mobilen mot pannan och låt laget gissa ordet!</p>
+            <span className="btn-primary bg-gradient-to-r from-green-500 to-emerald-600 border-none">Starta Pannband</span>
+          </Link>
         </div>
 
         <div className="mt-20 border-t border-primary/10 pt-8">

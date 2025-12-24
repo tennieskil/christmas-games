@@ -7,7 +7,8 @@ export default function LayoutWrapper({ children }: { children: React.ReactNode 
     const pathname = usePathname();
     const isPuzzlePage = pathname.startsWith("/puzzles/");
     const isEmojiPage = pathname.startsWith("/emojis");
-    const isHideHeader = isPuzzlePage || isEmojiPage;
+    const isForeheadPage = pathname.startsWith("/forehead");
+    const isHideHeader = isPuzzlePage || isEmojiPage || isForeheadPage;
 
     return (
         <>
